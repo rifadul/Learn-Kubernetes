@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Office temp/lock files
+~$*
+.~lock.*#
+
+
+# Secrets / cluster credentials - never push
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.pfx
+kubeconfig
+*.kubeconfig
+.kube/
+secrets/
+*secret*.yaml
+*secret*.yml
+
+# Local scratch
+tmp/
+scratch/
+*.log
+
+# PowerPoint temp/lock files (the .pptx decks themselves are tracked)
+~$*.pptx
+.~lock.*.pptx#
